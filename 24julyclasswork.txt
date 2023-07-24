@@ -1,0 +1,197 @@
+Q.1 even namber 1---100
+
+#include<stdio.h>
+int main()
+{
+   int a=1;
+   while(a<=100)
+   {
+     if(a%2!=0)
+      printf("%d\n",a);
+      a++;
+   }
+   return 0;
+   
+   
+}
+________________________________________
+Q.2 100-----1
+#include<stdio.h>
+int main()
+{
+   int a=100;
+   while(a>=1)
+   {
+     if(a%2!=0)
+      printf("%d\n",a);
+      a--;
+   }
+   return 0;
+   
+   
+}
+_________________________________________________
+Q.3 #include<stdio.h>
+int main()
+{
+   int a,b;
+   printf("enter the number");
+   scanf("%d",&a);
+   printf("enter the namber");
+   scanf("%d",&b);
+   while(a<=b)
+   {
+      if(a%2==0)
+      {
+         printf("%d",a);
+   
+      }
+      a++;
+   }
+   return 0;
+   
+   
+}
+______________________________________________
+Q1 1-----100 for loop
+#include<stdio.h>
+int main()
+{
+   int a=1;
+   for(int a=1;a<=100;a++)
+   {
+      if(a%2==0)
+   {
+      printf("%d",a);
+   }
+   
+   }
+   return 0;
+}
+-----------------------------------------------------------------
+Q2/     100----1 for odd
+#include<stdio.h>
+int main()
+{
+   int a=1;
+   for(int a=100;a>=1;a--)
+   {
+      if(a%2==0)
+   {
+      printf("%d\n",a);
+   }
+   
+   }
+   return 0;
+}
+__________________________________________________________________________
+Q3  100----1 even namber
+#include<stdio.h>
+int main()
+{
+   for(int a=100;a>=1;a--)
+   {
+      if(a%2==0)
+   {
+      printf("%d\n",a);
+   }
+   
+   }
+   return 0;
+}____________________________________________
+Q.4
+#include <stdio.h>
+
+int main() {
+   int a, b;
+
+   printf("Enter the value of a and b: ");
+   scanf("%d %d", &a, &b);
+   for(int a;a<=b;a++)
+   {
+      if(a%2==0)
+      {
+         printf("%d",a);
+      }
+   }
+   return 0;
+}
+_________________________________________________________
+
+Q7 1--100 even namber divide 5 and 11 both
+#include <stdio.h>
+
+int main() {
+    int a = 1;
+
+    printf("Even numbers between 1 and 100 that are divisible by either 5 or 11:\n");
+
+    while (a <= 100) {
+        if (a % 2 == 0 && (a % 5 == 0 || a % 11 == 0)) {
+            printf("%d\n", a);
+        }
+        a++;
+    }
+
+    return 0;
+}
+
+____________________________________________________
+
+Q.8  1---100 even namber multiple 7or 3
+
+#include <stdio.h>
+
+int main() {
+    int a = 1;
+
+    printf("Even numbers between 1 and 100 that are multiples of either 3 or 7:\n");
+
+    while (a <= 100) {
+        if (a % 2 == 0 && (a% 3 == 0 || a% 7 == 0)) {
+            printf("%d\n", a);
+        }
+        num++;
+    }
+
+    return 0;
+}
+________________________________________________________-
+
+Q.9 50--100 even namber 
+#include <stdio.h>
+
+int main() {
+    int a= 50;
+
+    printf("Even numbers ");
+
+    while (a <= 100) {
+        if (a % 2 == 0 ){
+            printf("%d", a);
+        }
+        a++;
+    }
+
+    return 0;
+}
+________________________________________________________
+Q10 odd namber 100---50
+#include <stdio.h>
+
+int main() {
+    int a= 100;
+
+    printf("odd numbers ");
+
+    while (a >= 50) {
+        if (a % 2 == 0 ){
+            printf("%d\n", a);
+        }
+        a--;
+    }
+
+    return 0;
+}
+
+___________________________________________________________________
