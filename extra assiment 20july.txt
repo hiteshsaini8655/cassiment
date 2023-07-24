@@ -1,0 +1,91 @@
+even namber 
+q1
+#include <stdio.h>
+
+int main() {
+    int count = 0; 
+    int num = 2;   
+    printf("First 100 even numbers:\n");
+
+    while (count < 100) {
+        printf("%d ", num);
+        num += 2;    // Increment by 2 to get the next even number
+        count++;
+    }
+
+    return 0;
+}
+__________________________________________________________________________________
+Q3 odd namber
+
+#include <stdio.h>
+
+int main() {
+    int count = 0; 
+    int num = 1;   
+    printf("First 100 even numbers:\n");
+
+    while (count < 100) {
+        printf("%d ", num);
+        num += 2;    // Increment by 2 to get the next even number
+        count++;
+    }
+
+    return 0;
+}
+__________________________________________________________________________________________
+Q .2
+#include <stdio.h>
+
+int main() {
+    int start_number = 100;
+    int end_number = 1;
+
+    for (int num = start_number; num >= end_number; num--) {
+        if (num % 2 == 0) {
+            printf("%d ", num);
+        }
+    }
+
+    return 0;
+}
+
+__________________________________________________________________________
+Q.4
+#include <stdio.h>
+
+void generate_even_numbers(int start, int end) {
+    for (int num = start; num <= end; num++) {
+        if (num % 2 == 0) {
+            printf("%d ", num);
+        }
+    }
+}
+
+int main() {
+    int start_number = 50;
+    int end_number = 1000;
+    
+    generate_even_numbers(start_number, end_number);
+    
+    return 0;
+}
+_____________________________________________________________________________________
+Q.5
+
+#include <stdio.h>
+
+int main() {
+    int num_rows = 10; 
+    int num_cols = 10; 
+
+    for (int i = 1; i <= num_rows; i++) {
+        for (int j = 1; j <= num_cols; j++) {
+            printf("%4d", i * j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+________________________________________________________-

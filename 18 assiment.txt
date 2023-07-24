@@ -1,0 +1,50 @@
+  
+#include<stdio.h>
+int main()
+{
+    int a=45;
+    printf("enter the namber");
+    scanf("%d",&a);
+    if(a>34)
+    {
+        printf("a is max ");
+        
+    }
+    return 0;
+}
+_________________
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("enter the age ");
+    scanf("%d",&age);
+    if(age>=18);
+    {
+        printf("valid for vote");
+    }
+    else {
+    printf("not valid for vote");
+    
+}
+return 0;
+}
+_____________________________
+Q faill and pass 
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the namber");
+    scanf("%d",&num);
+    if(num==5)
+    {
+        printf("you are pass");
+    }
+    else{
+        printf("you are fail");
+    }
+    return 0;
+    
+}
+________________________________________________--

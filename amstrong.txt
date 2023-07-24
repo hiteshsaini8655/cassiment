@@ -1,0 +1,49 @@
+this number is not armstrong
+
+#include<stdio.h>
+int main()
+{
+   int num=153,rem,sum=0;
+   int temp;
+   temp=num;
+   while(num>0)
+   {
+   rem=num%10;
+   sum=sum+rem*rem*rem;
+   num /=10; //num=num/10
+   }
+   if(temp == sum)
+   {
+      printf("this number is armstrong");
+   }
+   else{
+      printf("this number is not armstrong");
+   }
+   return 0;
+}
+
+____________________________________________________________
+this number is armstrong
+
+#include<stdio.h>
+int main()
+{
+   int num=151,rem,sum=0;
+   int temp;
+   temp=num;
+   while(num>0)
+   {
+   rem=num%10;
+   sum=sum+rem*rem*rem;
+   num /=10; //num=num/10
+   }
+   if(temp == sum)
+   {
+      printf("this number is armstrong");
+   }
+   else{
+      printf("this number is not armstrong");
+   }
+   return 0;
+}
+________________________________________________________________
