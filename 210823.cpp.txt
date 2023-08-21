@@ -1,0 +1,55 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   int result;
+   result=((((3+4)*2)/2)-5);
+   cout<<"result"<<result;
+   
+
+    return 0;
+}
+______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+   float base,hight,area;
+   cin>>base>>hight;
+   area=0.5*base*hight;
+   cout<<area<<area;
+   
+   
+
+    return 0;
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#include<iostream>
+using namespace std;
+int main()
+{
+   int a,b;
+   cout<<"enter the value a and b";
+   cin>>a>>b;
+   int c;
+   c=a*a+b*b;
+   cout<<c;
+   
+   
+
+    return 0;
+}++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#include<iostream>
+using namespace std;
+int main()
+{
+   long a;
+   cin>>a;
+   cout<<"enter the value of a"<<a;
+
+   
+   
+
+    return 0;
+}
+____________________________________________________________________
