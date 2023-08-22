@@ -53,3 +53,32 @@ int main()
     return 0;
 }
 ____________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+   int a,b,c;
+   cin>>a>>b>>c;
+   int d=((((b*b)-4)*a)*c);
+   cout<<"equation"<<a<<"x^x+"<<b<<"x+"<<c<<"is "<<d;
+
+   
+   
+
+    return 0;
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#include <iostream>
+using namespace std;
+int main()
+{
+   int x1,x2,y1,y2;
+   cout<<"enter the value of x1,x2,y1,y2";
+   cin>>x1>>x2>>y1>>y2;
+   int a=(x1+x2)/2;
+   int b=(y1+y2)/2;
+   cout<<"sum of this  "<<a<<endl;
+   cout<<"sum of b"<<b;
+
+    return 0;
+}
