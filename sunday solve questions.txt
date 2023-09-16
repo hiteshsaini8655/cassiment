@@ -1,0 +1,48 @@
+making calucation
+#include <iostream>
+using namespace std;
+int main()
+{
+   int a,b,sum;
+   cout<<"enter the value of namber";
+   cin>>a;
+   cout<<"enter the value of namber";
+   cin>>b;
+   sum=a+b;
+   cout << "Sum: " << sum << endl;
+
+
+   
+   return 0;
+}
+{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num1,num2,sum;
+   cout<<"enter the number of value ";
+   cin>>num1;
+   cout<<"enter the number of value ";
+   cin>>num2;
+   sum=num1+num2;
+   cout << "Sum: " << sum << endl;
+
+   return 0;
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    for (int i = 0; i < 100; i++)
+    {
+        cout << "Sorry " << i + 1 << " time(s)." << endl;
+    }
+
+    return 0;
+}
+___________________________________________________________________
+

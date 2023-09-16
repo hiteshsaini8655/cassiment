@@ -1,0 +1,48 @@
+Q.1
+#include <iostream>
+using namespace std;
+int main() {
+    int Anika, Arjun;
+
+    
+    cout << "Enter the value for Anika: ";
+    cin >> Anika;
+    cout << "Enter the value for Arjun: ";
+    cin >> Arjun;
+
+    
+    Anika = Anika ^ Arjun;
+    Arjun = Anika ^ Arjun;
+    Anika = Anika ^ Arjun;
+
+    
+    cout << "After swap, Anika has: " << Anika << endl;
+    cout << "After swap, Arjun has: " << Arjun << endl;
+
+    return 0;
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Q.2
+#include <iostream>
+using namespace std;
+void printbinary(int n)
+{
+   for(int i=31;i>=0;i--)
+   {
+      cout<<((n>>i)&1);
+   }
+   cout<<"\n";
+}
+int main()
+{
+   int n 1;
+   cin>>n>>i;
+   printbinary(n);
+   int m=(n|(1<<i);
+   printbinary(m);
+   cout<<m<<end1;
+   
+   return 0;
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Q.3
